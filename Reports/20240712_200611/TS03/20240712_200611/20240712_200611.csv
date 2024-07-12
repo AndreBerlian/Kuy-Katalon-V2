@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03,Chrome 126.0.0.0,,,12-07-2024 20:06:34,12-07-2024 20:06:48,"13,271s",PASSED
+,,,,,,,
+Test Cases/Create Test Case/TC03,Chrome 126.0.0.0,,,12-07-2024 20:06:34,12-07-2024 20:06:48,"13,117s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,12-07-2024 20:06:35,12-07-2024 20:06:38,"3,127s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 20:06:38,12-07-2024 20:06:38,"0,072s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,12-07-2024 20:06:38,12-07-2024 20:06:39,"0,915s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,12-07-2024 20:06:39,12-07-2024 20:06:39,"0,543s",PASSED
+delay(0),Chrome 126.0.0.0,,,12-07-2024 20:06:39,12-07-2024 20:06:39,"0,023s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 20:06:39,12-07-2024 20:06:40,"0,590s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Chris Evans"")",Chrome 126.0.0.0,,,12-07-2024 20:06:40,12-07-2024 20:06:41,"0,734s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,12-07-2024 20:06:41,12-07-2024 20:06:42,"1,379s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,12-07-2024 20:06:42,12-07-2024 20:06:47,"5,024s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 20:06:47,12-07-2024 20:06:48,"0,424s",PASSED

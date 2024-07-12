@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS06,Chrome 126.0.0.0,,,12-07-2024 19:59:56,12-07-2024 20:00:10,"13,702s",PASSED
+,,,,,,,
+Test Cases/Create Test Case/TC06,Chrome 126.0.0.0,,,12-07-2024 19:59:56,12-07-2024 20:00:10,"13,567s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,12-07-2024 19:59:56,12-07-2024 20:00:00,"3,121s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 20:00:00,12-07-2024 20:00:00,"0,056s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,12-07-2024 20:00:00,12-07-2024 20:00:01,"0,930s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,12-07-2024 20:00:01,12-07-2024 20:00:01,"0,521s",PASSED
+delay(0),Chrome 126.0.0.0,,,12-07-2024 20:00:01,12-07-2024 20:00:01,"0,024s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 20:00:01,12-07-2024 20:00:02,"0,579s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Jeremy Renner"")",Chrome 126.0.0.0,,,12-07-2024 20:00:02,12-07-2024 20:00:02,"0,688s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,12-07-2024 20:00:02,12-07-2024 20:00:04,"1,916s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,12-07-2024 20:00:04,12-07-2024 20:00:09,"5,024s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 20:00:09,12-07-2024 20:00:10,"0,441s",PASSED

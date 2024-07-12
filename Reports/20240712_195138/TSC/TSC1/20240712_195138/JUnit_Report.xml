@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC1" time="264.298" tests="10" failures="0" errors="0">
+   <testsuite name="TS01" tests="1" failures="0" errors="0" time="13.694" skipped="0" timestamp="12-07-2024T19:57:28" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS01\\20240712_195155"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS01\\20240712_195155\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="c71a2f241943b022c352d7cf631e9fee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC01" time="13.544" classname="Test Cases/Create Test Case/TC01" status="PASSED">
+         <system-out><![CDATA[12-07-2024T19:57:28 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC01: Test Cases/Create Test Case/TC01
+
+12-07-2024T19:57:29 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:57:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T19:57:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T19:57:32 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:57:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T19:57:32 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T19:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:57:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:57:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T19:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:57:34 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T19:57:34 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T19:57:34 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:57:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:57:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T19:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Robert Downey Jr."): Text 'Robert Downey Jr.' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:57:35 - [MESSAGE][PASSED] - Text 'Robert Downey Jr.' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:57:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:57:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:57:37 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T19:57:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T19:57:42 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:57:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:57:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T19:57:28 - [TEST_SUITE][PASSED] - TS01: Test Cases/Create Test Case/TC01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS02" tests="1" failures="0" errors="0" time="13.496" skipped="0" timestamp="12-07-2024T19:57:54" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS02">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS02\\20240712_195228"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS02\\20240712_195228\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="08062821436d1186b7f682fe63531b90"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC02" time="13.346" classname="Test Cases/Create Test Case/TC02" status="PASSED">
+         <system-out><![CDATA[12-07-2024T19:57:54 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC02: Test Cases/Create Test Case/TC02
+
+12-07-2024T19:57:54 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:57:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T19:57:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T19:57:57 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:57:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T19:57:57 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T19:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:57:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:57:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T19:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:57:59 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T19:57:59 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T19:57:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:57:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:57:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T19:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Chris Hemsworth"): Text 'Chris Hemsworth' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:00 - [MESSAGE][PASSED] - Text 'Chris Hemsworth' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:02 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T19:58:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T19:58:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:58:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:58:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T19:57:54 - [TEST_SUITE][PASSED] - TS02: Test Cases/Create Test Case/TC02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS03" tests="1" failures="0" errors="0" time="14.394" skipped="0" timestamp="12-07-2024T19:58:40" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS03">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS03\\20240712_195300"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS03\\20240712_195300\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="47e6eda5e9fa8b19fe5cb23c96aa3209"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC03" time="14.244" classname="Test Cases/Create Test Case/TC03" status="PASSED">
+         <system-out><![CDATA[12-07-2024T19:58:40 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC03: Test Cases/Create Test Case/TC03
+
+12-07-2024T19:58:40 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:58:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T19:58:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T19:58:43 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:58:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T19:58:43 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T19:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:58:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:58:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T19:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:58:45 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T19:58:45 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T19:58:45 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:58:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:58:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T19:58:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Chris Evans"): Text 'Chris Evans' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:46 - [MESSAGE][PASSED] - Text 'Chris Evans' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:58:49 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T19:58:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T19:58:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:58:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:58:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T19:58:40 - [TEST_SUITE][PASSED] - TS03: Test Cases/Create Test Case/TC03]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS04" tests="1" failures="0" errors="0" time="13.936" skipped="0" timestamp="12-07-2024T19:59:06" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS04\\20240712_195333"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS04\\20240712_195333\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="99b085882b60f8034c6b8b4e00c373f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC04" time="13.762" classname="Test Cases/Create Test Case/TC04" status="PASSED">
+         <system-out><![CDATA[12-07-2024T19:59:06 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC04: Test Cases/Create Test Case/TC04
+
+12-07-2024T19:59:06 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:59:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T19:59:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T19:59:09 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:59:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T19:59:09 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T19:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:59:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T19:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:59:11 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T19:59:11 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T19:59:11 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:59:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:59:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T19:59:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Mark Ruffalo"): Text 'Mark Ruffalo' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:12 - [MESSAGE][PASSED] - Text 'Mark Ruffalo' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:14 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T19:59:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T19:59:19 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:59:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:59:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T19:59:06 - [TEST_SUITE][PASSED] - TS04: Test Cases/Create Test Case/TC04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS05" tests="1" failures="0" errors="0" time="13.438" skipped="0" timestamp="12-07-2024T19:59:31" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS05">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS05\\20240712_195406"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS05\\20240712_195406\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="2c0bd154f5a6b39b2388db57c1a9ae5b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC05" time="13.283" classname="Test Cases/Create Test Case/TC05" status="PASSED">
+         <system-out><![CDATA[12-07-2024T19:59:31 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC05: Test Cases/Create Test Case/TC05
+
+12-07-2024T19:59:31 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:59:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T19:59:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T19:59:35 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:59:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T19:59:35 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T19:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T19:59:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:59:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T19:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T19:59:36 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T19:59:36 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T19:59:36 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:59:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:59:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T19:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Scarlett Johansson"): Text 'Scarlett Johansson' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:37 - [MESSAGE][PASSED] - Text 'Scarlett Johansson' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T19:59:39 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T19:59:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T19:59:44 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T19:59:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T19:59:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T19:59:31 - [TEST_SUITE][PASSED] - TS05: Test Cases/Create Test Case/TC05]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS06" tests="1" failures="0" errors="0" time="13.702" skipped="0" timestamp="12-07-2024T19:59:56" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS06">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS06\\20240712_195438"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS06\\20240712_195438\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="9aa4aad3e418d2cfcde1751933ea3dc2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC06" time="13.567" classname="Test Cases/Create Test Case/TC06" status="PASSED">
+         <system-out><![CDATA[12-07-2024T19:59:56 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC06: Test Cases/Create Test Case/TC06
+
+12-07-2024T19:59:56 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T19:59:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T19:59:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T20:00:00 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:00:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T20:00:00 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T20:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:00:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:00:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T20:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:00:01 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T20:00:01 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T20:00:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:00:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:00:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T20:00:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Jeremy Renner"): Text 'Jeremy Renner' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:02 - [MESSAGE][PASSED] - Text 'Jeremy Renner' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:04 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T20:00:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T20:00:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:00:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:00:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T19:59:56 - [TEST_SUITE][PASSED] - TS06: Test Cases/Create Test Case/TC06]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS07" tests="1" failures="0" errors="0" time="13.917" skipped="0" timestamp="12-07-2024T20:00:22" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS07">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS07\\20240712_195511"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS07\\20240712_195511\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="5ab8b9303165a59ab440fa59a97ce961"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC07" time="13.782" classname="Test Cases/Create Test Case/TC07" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:00:22 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC07: Test Cases/Create Test Case/TC07
+
+12-07-2024T20:00:22 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:00:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T20:00:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T20:00:25 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:00:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T20:00:25 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T20:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:00:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:00:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T20:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:00:27 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T20:00:27 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T20:00:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:00:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:00:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T20:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Sebastian Stan"): Text 'Sebastian Stan' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:28 - [MESSAGE][PASSED] - Text 'Sebastian Stan' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:30 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T20:00:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T20:00:35 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:00:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:00:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T20:00:22 - [TEST_SUITE][PASSED] - TS07: Test Cases/Create Test Case/TC07]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS08" tests="1" failures="0" errors="0" time="13.933" skipped="0" timestamp="12-07-2024T20:00:47" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS08">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS08\\20240712_195544"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS08\\20240712_195544\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="24313eb0f1952cf6b372fe725b39e12c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC08" time="13.739" classname="Test Cases/Create Test Case/TC08" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:00:47 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC08: Test Cases/Create Test Case/TC08
+
+12-07-2024T20:00:48 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:00:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T20:00:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T20:00:51 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:00:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T20:00:51 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T20:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:00:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:00:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T20:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:00:52 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T20:00:53 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T20:00:53 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:00:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:00:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T20:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Anthony Mackie"): Text 'Anthony Mackie' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:54 - [MESSAGE][PASSED] - Text 'Anthony Mackie' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:00:56 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T20:01:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T20:01:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:01:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:01:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T20:00:47 - [TEST_SUITE][PASSED] - TS08: Test Cases/Create Test Case/TC08]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS09" tests="1" failures="0" errors="0" time="13.607" skipped="0" timestamp="12-07-2024T20:01:12" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS09">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS09\\20240712_195616"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS09\\20240712_195616\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="aae2c17b65c72dee5edabf3cd9316d11"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC09" time="13.466" classname="Test Cases/Create Test Case/TC09" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:01:12 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC09: Test Cases/Create Test Case/TC09
+
+12-07-2024T20:01:13 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:01:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T20:01:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T20:01:16 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:01:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T20:01:16 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T20:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:01:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:01:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T20:01:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:01:17 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T20:01:17 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T20:01:17 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:01:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:01:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T20:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Elizabeth Olsen"): Text 'Elizabeth Olsen' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:19 - [MESSAGE][PASSED] - Text 'Elizabeth Olsen' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:20 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T20:01:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T20:01:25 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:01:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:01:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T20:01:12 - [TEST_SUITE][PASSED] - TS09: Test Cases/Create Test Case/TC09]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS10" tests="1" failures="0" errors="0" time="13.535" skipped="0" timestamp="12-07-2024T20:01:38" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TS10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS10\\20240712_195649"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\Kuy Katalon V2\\Reports\\20240712_195138\\TS10\\20240712_195649\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-First Page Wikipedia.png, keyes\keyes-Second Page Wikipedia.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="fb2c29b276b4466310bc078870348c24"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Create Test Case/TC10" time="13.369" classname="Test Cases/Create Test Case/TC10" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:01:38 - [TEST_CASE][PASSED] - Test Cases/Create Test Case/TC10: Test Cases/Create Test Case/TC10
+
+12-07-2024T20:01:39 - [TEST_STEP][PASSED] - openBrowser("www.wikipedia.org"): Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:01:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T20:01:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T20:01:42 - [MESSAGE][PASSED] - Browser is opened with url: 'www.wikipedia.org'
+
+12-07-2024T20:01:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T20:01:42 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T20:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_English")): Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_English' is clicked on
+
+12-07-2024T20:01:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Wikipedia/icon_Search"), 0): Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:01:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-07-2024T20:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Wikipedia/icon_Search' is present
+
+12-07-2024T20:01:43 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+12-07-2024T20:01:43 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+12-07-2024T20:01:43 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("First Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:01:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:01:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-First Page Wikipedia.png]]
+
+12-07-2024T20:01:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search"), "Tom Holland"): Text 'Tom Holland' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:44 - [MESSAGE][PASSED] - Text 'Tom Holland' is set on object 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Wikipedia/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Wikipedia/input_Search'
+
+12-07-2024T20:01:46 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+12-07-2024T20:01:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-07-2024T20:01:51 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Second Page Wikipedia"): Taking screenshot successfully
+
+12-07-2024T20:01:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-07-2024T20:01:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Second Page Wikipedia.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T20:01:38 - [TEST_SUITE][PASSED] - TS10: Test Cases/Create Test Case/TC10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

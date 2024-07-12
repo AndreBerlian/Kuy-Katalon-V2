@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS08,Chrome 126.0.0.0,,,12-07-2024 20:00:47,12-07-2024 20:01:01,"13,933s",PASSED
+,,,,,,,
+Test Cases/Create Test Case/TC08,Chrome 126.0.0.0,,,12-07-2024 20:00:47,12-07-2024 20:01:01,"13,739s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,12-07-2024 20:00:48,12-07-2024 20:00:51,"3,287s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 20:00:51,12-07-2024 20:00:51,"0,056s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,12-07-2024 20:00:51,12-07-2024 20:00:52,"1,013s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,12-07-2024 20:00:52,12-07-2024 20:00:52,"0,539s",PASSED
+delay(0),Chrome 126.0.0.0,,,12-07-2024 20:00:52,12-07-2024 20:00:53,"0,025s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 20:00:53,12-07-2024 20:00:53,"0,594s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Anthony Mackie"")",Chrome 126.0.0.0,,,12-07-2024 20:00:53,12-07-2024 20:00:54,"0,688s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,12-07-2024 20:00:54,12-07-2024 20:00:56,"1,722s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,12-07-2024 20:00:56,12-07-2024 20:01:01,"5,021s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 20:01:01,12-07-2024 20:01:01,"0,451s",PASSED

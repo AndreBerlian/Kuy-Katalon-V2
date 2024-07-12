@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS05,Chrome 126.0.0.0,,,12-07-2024 19:59:31,12-07-2024 19:59:44,"13,438s",PASSED
+,,,,,,,
+Test Cases/Create Test Case/TC05,Chrome 126.0.0.0,,,12-07-2024 19:59:31,12-07-2024 19:59:44,"13,283s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,12-07-2024 19:59:31,12-07-2024 19:59:35,"3,087s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 19:59:35,12-07-2024 19:59:35,"0,066s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,12-07-2024 19:59:35,12-07-2024 19:59:35,"0,907s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,12-07-2024 19:59:35,12-07-2024 19:59:36,"0,530s",PASSED
+delay(0),Chrome 126.0.0.0,,,12-07-2024 19:59:36,12-07-2024 19:59:36,"0,023s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 19:59:36,12-07-2024 19:59:37,"0,556s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Scarlett Johansson"")",Chrome 126.0.0.0,,,12-07-2024 19:59:37,12-07-2024 19:59:37,"0,720s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,12-07-2024 19:59:37,12-07-2024 19:59:39,"1,654s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,12-07-2024 19:59:39,12-07-2024 19:59:44,"5,018s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 19:59:44,12-07-2024 19:59:44,"0,449s",PASSED

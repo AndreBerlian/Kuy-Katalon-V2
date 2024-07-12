@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02,Chrome 126.0.0.0,,,12-07-2024 19:57:54,12-07-2024 19:58:07,"13,496s",PASSED
+,,,,,,,
+Test Cases/Create Test Case/TC02,Chrome 126.0.0.0,,,12-07-2024 19:57:54,12-07-2024 19:58:07,"13,346s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,12-07-2024 19:57:54,12-07-2024 19:57:57,"3,095s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 19:57:57,12-07-2024 19:57:57,"0,066s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,12-07-2024 19:57:57,12-07-2024 19:57:58,"0,949s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,12-07-2024 19:57:58,12-07-2024 19:57:59,"0,530s",PASSED
+delay(0),Chrome 126.0.0.0,,,12-07-2024 19:57:59,12-07-2024 19:57:59,"0,022s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 19:57:59,12-07-2024 19:57:59,"0,560s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Chris Hemsworth"")",Chrome 126.0.0.0,,,12-07-2024 19:57:59,12-07-2024 19:58:00,"0,710s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,12-07-2024 19:58:00,12-07-2024 19:58:02,"1,687s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,12-07-2024 19:58:02,12-07-2024 19:58:07,"5,033s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,12-07-2024 19:58:07,12-07-2024 19:58:07,"0,431s",PASSED
