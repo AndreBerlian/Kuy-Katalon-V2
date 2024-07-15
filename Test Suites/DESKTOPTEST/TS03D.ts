@@ -17,5 +17,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/DesktopTest/TC03D</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>abd76565-18f8-4396-b381-f8afbcfa8ce7</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

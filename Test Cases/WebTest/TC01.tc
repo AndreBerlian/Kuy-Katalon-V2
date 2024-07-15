@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>3d62d935-e416-485d-9303-c1fdfa8c1f98</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>004888d9-aeb4-4171-9078-121132e8aa1f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Robert Downey Jr.'</defaultValue>
+      <description></description>
+      <id>004888d9-aeb4-4171-9078-121132e8aa1f</id>
+      <masked>false</masked>
+      <name>SearchWikiWeb</name>
+   </variable>
 </TestCaseEntity>

@@ -17,5 +17,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/WebTest/TC01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>004888d9-aeb4-4171-9078-121132e8aa1f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

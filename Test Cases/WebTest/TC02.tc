@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0d2ad4a1-84e1-4e04-9fab-3682eecc7de1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78fbe660-98c2-4fe0-b3f1-c99d67d314a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Chris Hemsworth'</defaultValue>
+      <description></description>
+      <id>78fbe660-98c2-4fe0-b3f1-c99d67d314a0</id>
+      <masked>false</masked>
+      <name>SearchWikiWeb</name>
+   </variable>
 </TestCaseEntity>

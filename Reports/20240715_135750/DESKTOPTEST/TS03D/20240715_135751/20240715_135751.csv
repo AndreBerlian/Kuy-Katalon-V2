@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03D,,,,15-07-2024 13:58:00,15-07-2024 13:58:29,"29,566s",PASSED
+,,,,,,,
+Test Cases/DesktopTest/TC03D,,,,15-07-2024 13:58:00,15-07-2024 13:58:29,"29,414s",PASSED
+"startApplicationWithTitle(""C:\Users\1331\Desktop\Wikipedia.lnk"", ""Wikipedia"")",,,,15-07-2024 13:58:00,15-07-2024 13:58:19,"19,116s",PASSED
+"waitForElementPresent(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), 0)",,,,15-07-2024 13:58:19,15-07-2024 13:58:20,"0,369s",PASSED
+delay(2),,,,15-07-2024 13:58:20,15-07-2024 13:58:22,"2,035s",PASSED
+"click(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""))",,,,15-07-2024 13:58:22,15-07-2024 13:58:22,"0,552s",PASSED
+"setText(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), ""Joko Widodo"")",,,,15-07-2024 13:58:22,15-07-2024 13:58:24,"1,556s",PASSED
+"sendKeys(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), Keys.chord(ENTER))",,,,15-07-2024 13:58:24,15-07-2024 13:58:24,"0,390s",PASSED
+delay(5),,,,15-07-2024 13:58:24,15-07-2024 13:58:29,"5,008s",PASSED
+closeApplication(),,,,15-07-2024 13:58:29,15-07-2024 13:58:29,"0,132s",PASSED

@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e0f8d7b1-9a95-49d2-ac95-6b9b057c8c76</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3f65874-35ed-4051-88a1-a3b00151c83e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joe Biden'</defaultValue>
+      <description></description>
+      <id>d3f65874-35ed-4051-88a1-a3b00151c83e</id>
+      <masked>false</masked>
+      <name>SearchWiki</name>
+   </variable>
 </TestCaseEntity>

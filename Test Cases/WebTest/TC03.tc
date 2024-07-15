@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e4f88e59-6669-4045-8f0e-024fafd959f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8690e7a-ac8a-4cad-a210-91d40df6c481</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kate Middleton'</defaultValue>
+      <description></description>
+      <id>e8690e7a-ac8a-4cad-a210-91d40df6c481</id>
+      <masked>false</masked>
+      <name>SearchWikiWeb</name>
+   </variable>
 </TestCaseEntity>

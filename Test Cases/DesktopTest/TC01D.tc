@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ee8f8010-9927-4a76-b2fe-a90112034ee2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4316df76-e9d1-461b-b545-abfdc8835e48</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Alan Walker'</defaultValue>
+      <description></description>
+      <id>4316df76-e9d1-461b-b545-abfdc8835e48</id>
+      <masked>false</masked>
+      <name>SearchWiki</name>
+   </variable>
 </TestCaseEntity>

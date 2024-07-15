@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>26be2a46-bd6a-4cd1-9c01-e09cb9a0aceb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98119510-8a7a-4835-ba20-ec42e51969fe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Taylor Swift'</defaultValue>
+      <description></description>
+      <id>98119510-8a7a-4835-ba20-ec42e51969fe</id>
+      <masked>false</masked>
+      <name>SearchWiki</name>
+   </variable>
 </TestCaseEntity>

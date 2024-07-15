@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02D,,,,15-07-2024 13:55:10,15-07-2024 13:55:36,"26,161s",PASSED
+,,,,,,,
+Test Cases/DesktopTest/TC02D,,,,15-07-2024 13:55:10,15-07-2024 13:55:36,"26,000s",PASSED
+"startApplicationWithTitle(""C:\Users\1331\Desktop\Wikipedia.lnk"", ""Wikipedia"")",,,,15-07-2024 13:55:11,15-07-2024 13:55:26,"15,644s",PASSED
+"waitForElementPresent(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), 0)",,,,15-07-2024 13:55:26,15-07-2024 13:55:27,"0,374s",PASSED
+delay(2),,,,15-07-2024 13:55:27,15-07-2024 13:55:29,"2,032s",PASSED
+"click(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""))",,,,15-07-2024 13:55:29,15-07-2024 13:55:29,"0,550s",PASSED
+"setText(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), ""Joe Biden"")",,,,15-07-2024 13:55:29,15-07-2024 13:55:31,"1,443s",PASSED
+"sendKeys(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), Keys.chord(ENTER))",,,,15-07-2024 13:55:31,15-07-2024 13:55:31,"0,404s",PASSED
+delay(5),,,,15-07-2024 13:55:31,15-07-2024 13:55:36,"5,009s",PASSED
+closeApplication(),,,,15-07-2024 13:55:36,15-07-2024 13:55:36,"0,273s",PASSED

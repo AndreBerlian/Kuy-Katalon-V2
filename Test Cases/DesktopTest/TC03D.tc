@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0e2d3806-709b-48fb-9687-4ec9e8f2fa30</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abd76565-18f8-4396-b381-f8afbcfa8ce7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko Widodo'</defaultValue>
+      <description></description>
+      <id>abd76565-18f8-4396-b381-f8afbcfa8ce7</id>
+      <masked>false</masked>
+      <name>SearchWiki</name>
+   </variable>
 </TestCaseEntity>

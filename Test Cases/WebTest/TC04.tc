@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>c8da9655-104c-486a-b4d5-ef62ded72721</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38e6b9cc-226b-4148-90cd-8414744f849e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mark Ruffalo'</defaultValue>
+      <description></description>
+      <id>38e6b9cc-226b-4148-90cd-8414744f849e</id>
+      <masked>false</masked>
+      <name>SearchWikiWeb</name>
+   </variable>
 </TestCaseEntity>
