@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01D" time="26.539" tests="1" failures="0" errors="0">
+   <testsuite name="TS01D" tests="1" failures="0" errors="0" time="26.539" skipped="0" timestamp="15-07-2024T11:45:30" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/DESKTOPTEST/TS01D">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1331\\GIT\\Kuy-Katalon-V2\\Reports\\20240715_114523\\DESKTOPTEST\\TS01D\\20240715_114523"/>
+         <property name="logFiles" value="C:\\Users\\1331\\GIT\\Kuy-Katalon-V2\\Reports\\20240715_114523\\DESKTOPTEST\\TS01D\\20240715_114523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/DesktopTest/TC01D" time="26.391" classname="Test Cases/DesktopTest/TC01D" status="PASSED">
+         <system-out><![CDATA[15-07-2024T11:45:30 - [TEST_CASE][PASSED] - Test Cases/DesktopTest/TC01D: Test Cases/DesktopTest/TC01D
+
+15-07-2024T11:45:30 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\1331\Desktop\Wikipedia.lnk", "Wikipedia"): The application at location: C:\Users\1331\Desktop\Wikipedia.lnk started.
+
+15-07-2024T11:45:31 - [MESSAGE][INFO] - Starting application C:\Users\1331\Desktop\Wikipedia.lnk on the local machine at address http://127.0.0.1:4723
+
+15-07-2024T11:45:32 - [MESSAGE][INFO] - Start finding a window that matches with title 'C:\Users\1331\Desktop\Wikipedia.lnk' in 120.000 millisecond(s)
+
+15-07-2024T11:45:46 - [MESSAGE][PASSED] - The application at location: C:\Users\1331\Desktop\Wikipedia.lnk started.
+
+15-07-2024T11:45:46 - [TEST_STEP][PASSED] - waitForElementPresent(findWindowsObject("DesktopWikipedia/input_SearchWikipedia"), 0): Object 'Object Repository/DesktopWikipedia/input_SearchWikipedia' is present
+
+15-07-2024T11:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T11:45:47 - [MESSAGE][PASSED] - Object 'Object Repository/DesktopWikipedia/input_SearchWikipedia' is present
+
+15-07-2024T11:45:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-07-2024T11:45:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-07-2024T11:45:49 - [TEST_STEP][PASSED] - click(findWindowsObject("DesktopWikipedia/input_SearchWikipedia")): Click on element: Object Repository/DesktopWikipedia/input_SearchWikipedia succesfully
+
+15-07-2024T11:45:49 - [MESSAGE][INFO] - Clicking on element: Object Repository/DesktopWikipedia/input_SearchWikipedia
+
+15-07-2024T11:45:49 - [MESSAGE][PASSED] - Click on element: Object Repository/DesktopWikipedia/input_SearchWikipedia succesfully
+
+15-07-2024T11:45:49 - [TEST_STEP][PASSED] - setText(findWindowsObject("DesktopWikipedia/input_SearchWikipedia"), "Alan Walker"): Text Alan Walker is set
+
+15-07-2024T11:45:51 - [MESSAGE][PASSED] - Text Alan Walker is set
+
+15-07-2024T11:45:51 - [TEST_STEP][PASSED] - sendKeys(findWindowsObject("DesktopWikipedia/input_SearchWikipedia"), Keys.chord(ENTER)): Keys  are pressed
+
+15-07-2024T11:45:51 - [MESSAGE][PASSED] - Keys  are pressed
+
+15-07-2024T11:45:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-07-2024T11:45:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-07-2024T11:45:56 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+15-07-2024T11:45:56 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-07-2024T11:45:30 - [TEST_SUITE][PASSED] - TS01D: Test Cases/DesktopTest/TC01D]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

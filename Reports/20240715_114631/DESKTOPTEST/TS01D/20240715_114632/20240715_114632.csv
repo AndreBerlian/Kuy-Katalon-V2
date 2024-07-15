@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01D,,,,15-07-2024 11:46:40,15-07-2024 11:47:09,"28,720s",PASSED
+,,,,,,,
+Test Cases/DesktopTest/TC01D,,,,15-07-2024 11:46:40,15-07-2024 11:47:09,"28,575s",PASSED
+"startApplicationWithTitle(""C:\Users\1331\Desktop\Wikipedia.lnk"", ""Wikipedia"")",,,,15-07-2024 11:46:40,15-07-2024 11:46:59,"18,298s",PASSED
+"waitForElementPresent(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), 0)",,,,15-07-2024 11:46:59,15-07-2024 11:46:59,"0,378s",PASSED
+delay(2),,,,15-07-2024 11:46:59,15-07-2024 11:47:01,"2,033s",PASSED
+"click(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""))",,,,15-07-2024 11:47:01,15-07-2024 11:47:02,"0,550s",PASSED
+"setText(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), ""Alan Walker"")",,,,15-07-2024 11:47:02,15-07-2024 11:47:03,"1,555s",PASSED
+"sendKeys(findWindowsObject(""DesktopWikipedia/input_SearchWikipedia""), Keys.chord(ENTER))",,,,15-07-2024 11:47:03,15-07-2024 11:47:04,"0,391s",PASSED
+delay(5),,,,15-07-2024 11:47:04,15-07-2024 11:47:09,"5,013s",PASSED
+closeApplication(),,,,15-07-2024 11:47:09,15-07-2024 11:47:09,"0,104s",PASSED
