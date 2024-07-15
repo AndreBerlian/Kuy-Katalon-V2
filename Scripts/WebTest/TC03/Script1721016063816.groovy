@@ -29,11 +29,13 @@ WebUI.delay(0)
 
 WebUI.takeScreenshotAsCheckpoint('First Page Wikipedia')
 
-WebUI.setText(findTestObject('Page_Wikipedia/input_Search'), 'Chris Evans')
+WebUI.setText(findTestObject('Page_Wikipedia/input_Search'), SearchWikiWeb)
 
 WebUI.sendKeys(findTestObject('Page_Wikipedia/input_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshotAsCheckpoint('Second Page Wikipedia')
+
+WebUI.closeBrowser()
 

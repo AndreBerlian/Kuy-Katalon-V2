@@ -25,7 +25,7 @@ Windows.delay(2)
 
 Windows.click(findWindowsObject('DesktopWikipedia/input_SearchWikipedia'))
 
-Windows.setText(findWindowsObject('DesktopWikipedia/input_SearchWikipedia'), 'Alan Walker')
+Windows.setText(findWindowsObject('DesktopWikipedia/input_SearchWikipedia'), SearchWiki)
 
 Windows.sendKeys(findWindowsObject('DesktopWikipedia/input_SearchWikipedia'), Keys.chord(Keys.ENTER))
 
