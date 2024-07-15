@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSGagal,Chrome 126.0.0.0,,,15-07-2024 17:39:38,15-07-2024 17:39:44,"6,017s",ERROR
+,,,,,,,
+Test Cases/TCGagal,Chrome 126.0.0.0,,,15-07-2024 17:39:38,15-07-2024 17:39:44,"5,863s",ERROR
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,15-07-2024 17:39:39,15-07-2024 17:39:42,"3,316s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,15-07-2024 17:39:42,15-07-2024 17:39:42,"0,081s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,15-07-2024 17:39:42,15-07-2024 17:39:43,"1,003s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,15-07-2024 17:39:43,15-07-2024 17:39:44,"0,521s",PASSED
+delay(0),Chrome 126.0.0.0,,,15-07-2024 17:39:44,15-07-2024 17:39:44,"0,021s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,15-07-2024 17:39:44,15-07-2024 17:39:44,"0,577s",PASSED
+"setText(findTestObject(""Page_Wikipedia/button_English""), SearchWikiWeb)",Chrome 126.0.0.0,,,15-07-2024 17:39:44,15-07-2024 17:39:44,"0,021s",ERROR
