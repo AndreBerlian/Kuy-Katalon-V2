@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03,Chrome 126.0.0.0,,,17-07-2024 15:21:16,17-07-2024 15:21:30,"13,864s",PASSED
+,,,,,,,
+Test Cases/WebTest/TC03,Chrome 126.0.0.0,,,17-07-2024 15:21:17,17-07-2024 15:21:30,"13,740s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,17-07-2024 15:21:17,17-07-2024 15:21:20,"2,971s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,17-07-2024 15:21:20,17-07-2024 15:21:20,"0,053s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,17-07-2024 15:21:20,17-07-2024 15:21:21,"1,185s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,17-07-2024 15:21:21,17-07-2024 15:21:22,"0,624s",PASSED
+delay(0),Chrome 126.0.0.0,,,17-07-2024 15:21:22,17-07-2024 15:21:22,"0,015s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,17-07-2024 15:21:22,17-07-2024 15:21:22,"0,570s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), SearchWikiWeb)",Chrome 126.0.0.0,,,17-07-2024 15:21:22,17-07-2024 15:21:23,"0,687s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,17-07-2024 15:21:23,17-07-2024 15:21:25,"1,777s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 15:21:25,17-07-2024 15:21:30,"5,011s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,17-07-2024 15:21:30,17-07-2024 15:21:30,"0,434s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 15:21:30,17-07-2024 15:21:30,"0,182s",PASSED

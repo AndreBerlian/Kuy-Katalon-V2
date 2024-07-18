@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01,,,,15-07-2024 17:42:49,15-07-2024 17:42:50,"1,032s",FAILED
+,,,,,,,
+Test Cases/WebTest/TC01,,,,15-07-2024 17:42:50,15-07-2024 17:42:50,"0,029s",FAILED
+"openBrowser(""www.wikipedia.org"")",,,,15-07-2024 17:42:50,15-07-2024 17:42:50,"0,009s",FAILED

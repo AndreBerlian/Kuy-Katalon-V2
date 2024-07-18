@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02,Firefox 127.0,,,17-07-2024 17:32:32,17-07-2024 17:32:49,"16,661s",PASSED
+,,,,,,,
+Test Cases/WebTest/TC02,Firefox 127.0,,,17-07-2024 17:32:32,17-07-2024 17:32:49,"16,465s",PASSED
+"openBrowser(""www.wikipedia.org"")",Firefox 127.0,,,17-07-2024 17:32:33,17-07-2024 17:32:38,"5,203s",PASSED
+maximizeWindow(),Firefox 127.0,,,17-07-2024 17:32:38,17-07-2024 17:32:38,"0,030s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Firefox 127.0,,,17-07-2024 17:32:38,17-07-2024 17:32:39,"1,276s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Firefox 127.0,,,17-07-2024 17:32:39,17-07-2024 17:32:40,"0,697s",PASSED
+delay(0),Firefox 127.0,,,17-07-2024 17:32:40,17-07-2024 17:32:40,"0,042s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Firefox 127.0,,,17-07-2024 17:32:40,17-07-2024 17:32:41,"0,632s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), SearchWikiWeb)",Firefox 127.0,,,17-07-2024 17:32:41,17-07-2024 17:32:41,"0,547s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Firefox 127.0,,,17-07-2024 17:32:41,17-07-2024 17:32:42,"0,797s",PASSED
+"delay(5, STOP_ON_FAILURE)",Firefox 127.0,,,17-07-2024 17:32:42,17-07-2024 17:32:47,"5,047s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Firefox 127.0,,,17-07-2024 17:32:47,17-07-2024 17:32:48,"0,501s",PASSED
+closeBrowser(),Firefox 127.0,,,17-07-2024 17:32:48,17-07-2024 17:32:49,"1,241s",PASSED
