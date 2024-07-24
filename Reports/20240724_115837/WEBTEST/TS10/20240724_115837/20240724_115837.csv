@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS10,TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:58:45,24-07-2024 11:59:40,"55,498s",PASSED
+,,,,,,,
+Test Cases/WebTest/TC10,TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:58:45,24-07-2024 11:59:40,"55,336s",PASSED
+"openBrowser(""www.wikipedia.org"")",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:58:45,24-07-2024 11:59:16,"30,538s",PASSED
+maximizeWindow(),TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:16,24-07-2024 11:59:17,"0,611s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:17,24-07-2024 11:59:19,"2,804s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:19,24-07-2024 11:59:21,"1,193s",PASSED
+delay(0),TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:21,24-07-2024 11:59:21,"0,026s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:21,24-07-2024 11:59:24,"3,896s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Tom Holland"")",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:24,24-07-2024 11:59:28,"3,547s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:28,24-07-2024 11:59:29,"1,461s",PASSED
+"delay(5, STOP_ON_FAILURE)",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:29,24-07-2024 11:59:34,"5,019s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:34,24-07-2024 11:59:38,"3,856s",PASSED
+closeBrowser(),TestCloud - Windows - Firefox 126.0,,,24-07-2024 11:59:38,24-07-2024 11:59:40,"2,049s",PASSED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01,Firefox 127.0,,,24-07-2024 11:56:17,24-07-2024 11:56:29,"12,109s",FAILED
+,,,,,,,
+Test Cases/WebTest/TC01,Firefox 127.0,,,24-07-2024 11:56:29,24-07-2024 11:56:29,"0,170s",FAILED
+"openBrowser(""www.wikipedia.org"")",Firefox 127.0,,,24-07-2024 11:56:29,24-07-2024 11:56:29,"0,144s",FAILED

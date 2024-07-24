@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01,Chrome 126.0.0.0,,,24-07-2024 11:56:10,24-07-2024 11:56:23,"12,841s",FAILED
+,,,,,,,
+Test Cases/WebTest/TC01,Chrome 126.0.0.0,,,24-07-2024 11:56:21,24-07-2024 11:56:23,"2,057s",FAILED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,24-07-2024 11:56:21,24-07-2024 11:56:23,"1,995s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 11:56:23,24-07-2024 11:56:23,"0,021s",FAILED

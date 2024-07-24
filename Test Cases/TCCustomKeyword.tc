@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCCustomKeyword</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2001cbc-0a72-4151-ace2-9e48c761bba1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9126868f-2c53-4b89-8741-fbee0f2f90aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Iron Man'</defaultValue>
+      <description></description>
+      <id>9126868f-2c53-4b89-8741-fbee0f2f90aa</id>
+      <masked>false</masked>
+      <name>SearchWikiWeb</name>
+   </variable>
+</TestCaseEntity>

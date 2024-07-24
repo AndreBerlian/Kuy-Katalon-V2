@@ -6,12 +6,16 @@
    <elementGuidId>c9106381-2b12-4b17-bee7-b02ce5720cd7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;search&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@title = 'Search Wikipedia [alt-shift-f]' and @placeholder = 'Search Wikipedia' and @name = 'search' and @type = 'search']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;search&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3201159e-16f4-4fd0-8f7f-84b9fca3e756</webElementGuid>
+      <webElementGuid>c53281c0-eee0-42c4-b258-4788e9427339</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cdx-text-input__input</value>
-      <webElementGuid>84913f30-3672-45f5-9038-659d502b2c24</webElementGuid>
+      <webElementGuid>6e200049-ea17-4f56-8b59-ca76f92bc1de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>accesskey</name>
       <type>Main</type>
       <value>f</value>
-      <webElementGuid>5345fe31-bc63-4fbf-86cf-6770bef21a11</webElementGuid>
+      <webElementGuid>c2d58e08-c198-411e-ac56-645a588a9052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>sentences</value>
-      <webElementGuid>27681abc-147d-4eb1-9552-d9b31e9310a1</webElementGuid>
+      <webElementGuid>3160bc94-7440-4885-9116-857f4b3c8ecd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Search Wikipedia [alt-shift-f]</value>
-      <webElementGuid>cf41b283-3903-44e9-95e8-82c37d01669f</webElementGuid>
+      <webElementGuid>dce47f83-d619-49f8-9845-750bf31beb38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Wikipedia</value>
-      <webElementGuid>5ab57c13-42b9-4d26-be57-6f0b3e95d452</webElementGuid>
+      <webElementGuid>d10f7ced-6a37-4b62-aee7-b4679a9ac3bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Search Wikipedia</value>
-      <webElementGuid>7883ade4-954c-4c66-8573-5422dce5067f</webElementGuid>
+      <webElementGuid>7564a104-7999-49ef-98ed-574bc3d014b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>name</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>eea3199f-5a62-4d72-9f39-2ba846cd35e2</webElementGuid>
+      <webElementGuid>073dbeb0-6677-463c-9c59-0b2b00f1774b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>131f9953-023b-4999-93f1-52f36595f563</webElementGuid>
+      <webElementGuid>4149dfb9-4239-499c-ab17-b68204c5709c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>50d0b14d-d621-4e81-b966-a9fa2b686c91</webElementGuid>
+      <webElementGuid>275cd34e-de2b-4b91-a3c0-9ae79bc4289e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>1c49e888-c067-452a-9e53-92d689c31f25</webElementGuid>
+      <webElementGuid>413da3a8-20c6-4a0a-b8b3-2d19f48a284c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>cdx-typeahead-search-menu-0</value>
-      <webElementGuid>16a356a6-7b5c-4280-bf7d-426528894059</webElementGuid>
+      <webElementGuid>8cc8322a-95dc-48a8-bb26-4bc577b23671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9a252af7-5884-489c-9d37-dda6301baad6</webElementGuid>
+      <webElementGuid>42cd2e62-bff8-4892-a340-9aeec9337e9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -133,7 +137,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>ef34da0e-9dab-4824-9a51-394c5d0cee00</webElementGuid>
+      <webElementGuid>61494e1e-0cda-4372-83a8-9fee253eb7e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>075d75fc-c565-4c35-b0b3-0143a72dfe06</webElementGuid>
+      <webElementGuid>dd54c8f1-d855-4e15-a074-6900a5c5aaaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;searchform&quot;)/div[@class=&quot;cdx-search-input cdx-search-input--has-end-button cdx-typeahead-search__input&quot;]/div[@class=&quot;cdx-search-input__input-wrapper&quot;]/div[@class=&quot;cdx-text-input cdx-text-input--has-start-icon cdx-text-input--status-default cdx-search-input__text-input&quot;]/input[@class=&quot;cdx-text-input__input&quot;]</value>
-      <webElementGuid>a0aedd81-e0c3-45b9-891f-e9ea00f559a2</webElementGuid>
+      <webElementGuid>af9f9b18-dca0-421e-af20-338dd1d50fb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='search']</value>
-      <webElementGuid>2520b1b6-b038-408e-9148-5eb30738b038</webElementGuid>
+      <webElementGuid>f1ca3b45-b816-4550-af02-4852f7b43bfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='searchform']/div/div/div/input</value>
-      <webElementGuid>f53acda3-06af-41ed-86c2-d1bfad773c07</webElementGuid>
+      <webElementGuid>c28ecd02-0d9e-4d66-b242-0f4ea3f3addb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +177,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>f81a315f-9e0b-4b6f-9300-d5cd8c6278dc</webElementGuid>
+      <webElementGuid>3bf4bda9-536e-46a9-9901-3cb9edcdc1e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,6 +185,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@title = 'Search Wikipedia [alt-shift-f]' and @placeholder = 'Search Wikipedia' and @name = 'search' and @type = 'search']</value>
-      <webElementGuid>c86438a5-e934-403b-a248-98b61d0696a8</webElementGuid>
+      <webElementGuid>da6a94c7-cd26-4602-a673-f47ad45c5b41</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

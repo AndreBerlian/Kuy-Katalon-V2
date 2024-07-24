@@ -37,3 +37,5 @@ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshotAsCheckpoint('Second Page Wikipedia')
 
+WebUI.closeBrowser()
+

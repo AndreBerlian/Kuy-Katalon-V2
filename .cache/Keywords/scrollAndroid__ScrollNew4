@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "979883AE546DABE70171F7E0DBEFF278",
+  "keywordClasses": [
+    {
+      "name": "scrollAndroid.ScrollNew4",
+      "keywordMethods": [
+        {
+          "name": "scroll",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

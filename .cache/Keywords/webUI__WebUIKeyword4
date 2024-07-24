@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B9F05A325A6B62251C0F180779DA0129",
+  "keywordClasses": [
+    {
+      "name": "webUI.WebUIKeyword4",
+      "keywordMethods": [
+        {
+          "name": "OpenMaximizeWindow",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

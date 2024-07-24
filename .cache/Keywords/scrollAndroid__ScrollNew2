@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0AAA11FAE774CE72573FF558F305DA03",
+  "keywordClasses": [
+    {
+      "name": "scrollAndroid.ScrollNew2",
+      "keywordMethods": [
+        {
+          "name": "scroll",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

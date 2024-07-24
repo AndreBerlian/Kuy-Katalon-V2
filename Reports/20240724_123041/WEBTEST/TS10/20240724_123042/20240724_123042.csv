@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS10,Chrome 126.0.0.0,,,24-07-2024 12:30:56,24-07-2024 12:31:14,"18,114s",PASSED
+,,,,,,,
+Test Cases/WebTest/TC10,Chrome 126.0.0.0,,,24-07-2024 12:30:56,24-07-2024 12:31:14,"17,944s",PASSED
+"openBrowser(""www.wikipedia.org"")",Chrome 126.0.0.0,,,24-07-2024 12:30:57,24-07-2024 12:31:00,"3,308s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 12:31:00,24-07-2024 12:31:00,"0,071s",PASSED
+"click(findTestObject(""Page_Wikipedia/button_English""))",Chrome 126.0.0.0,,,24-07-2024 12:31:00,24-07-2024 12:31:03,"2,423s",PASSED
+"waitForElementPresent(findTestObject(""Page_Wikipedia/icon_Search""), 0)",Chrome 126.0.0.0,,,24-07-2024 12:31:03,24-07-2024 12:31:03,"0,851s",PASSED
+delay(0),Chrome 126.0.0.0,,,24-07-2024 12:31:03,24-07-2024 12:31:03,"0,028s",PASSED
+"takeScreenshotAsCheckpoint(""First Page Wikipedia"")",Chrome 126.0.0.0,,,24-07-2024 12:31:03,24-07-2024 12:31:04,"0,683s",PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search""), ""Tom Holland"")",Chrome 126.0.0.0,,,24-07-2024 12:31:04,24-07-2024 12:31:05,"0,789s",PASSED
+"sendKeys(findTestObject(""Page_Wikipedia/input_Search""), Keys.chord(ENTER))",Chrome 126.0.0.0,,,24-07-2024 12:31:05,24-07-2024 12:31:09,"3,752s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-07-2024 12:31:09,24-07-2024 12:31:14,"5,034s",PASSED
+"takeScreenshotAsCheckpoint(""Second Page Wikipedia"")",Chrome 126.0.0.0,,,24-07-2024 12:31:14,24-07-2024 12:31:14,"0,469s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 12:31:14,24-07-2024 12:31:14,"0,211s",PASSED
